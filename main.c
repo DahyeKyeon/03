@@ -5,12 +5,15 @@
 
 int main(void) 
 {
-	char text;
+	float n;
+	float d;
 	
-	printf("enter a character: ");
-	scanf("%c", &text);
+	printf("enter numerator: ");
+	scanf("%i", &n);
+	printf("enter denominator: ");
+	scanf("%i", &d);
 	
-	printf("The next chracter of %c (%d) is %c (%d)\n", text, text, text+1, text+1);
+	printf("The result of division is %f\n.", n/d);
 	
 	return 0;
 }
